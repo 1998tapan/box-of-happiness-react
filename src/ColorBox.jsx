@@ -7,7 +7,7 @@ export default function ColorBox({ colors }) {
         return colors[randomInt];
     };
 
-    const [bgColor, setBgColor] = useState(randomColor());
+    const [bgColor, setBgColor] = useState(randomColor);
 
     const handleBg = () => {
         setBgColor(randomColor());
