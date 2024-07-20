@@ -5,4 +5,7 @@
     height: 500px;
     max-width: 90%;
     max-height: 100%;
+    border: 3px solid #03045e;
+    border-radius: 20px;
+    overflow: hidden;
 }
